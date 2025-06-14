@@ -1,0 +1,85 @@
+body 
+{
+  font-family: 'alexandria', sans-serif;
+  background: url(img//secondbackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: absolute;
+  background-size: cover;
+  background-size: 1000px 500px;
+  height: 25vh;
+  color: #fff;
+  background-color: #001;
+}
+
+
+h2
+{
+  font-size: 48px;
+}
+h3
+{
+  font-size: 32px;
+}
+h4
+{
+  font-size: 24px;
+}
+p{
+  font-size: 16px;
+}
+
+
+
+
+.nav-links
+{
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 135px;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 350;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  color: #ccc;
+}
+
+
+
+
+
+footer 
+{
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 350px;
+  margin-top: 360px;
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  position: absolute;
+  right: .1%;
+}
